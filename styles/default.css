@@ -396,16 +396,18 @@ body {
 .article .product-list {
     list-style: none;
     margin: 0;
-    margin-left: -33px;
+    /*margin-left: -33px;*/
     padding: 0;
-    position: relative;
 }
 
 .article .product-item {
     float: left;
     margin-bottom: 10px;
-    margin-left: 33px;
-    position: relative;
+    margin-left: 11px;
+    margin-right: 11px;
+    /* hack IE6 */
+    _margin-left: 9px;
+    _margin-right: 9px;
 }
 
 /*.article .product-item:first-child {
