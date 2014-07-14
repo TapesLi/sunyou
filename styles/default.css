@@ -31,6 +31,7 @@
 
 body {
     font-size: 14px;
+    font-family: 'Microsoft YaHei',Arial,Helvetica,sans-serif;
 }
 
 .header {
@@ -375,7 +376,8 @@ body {
 }
 
 .relative-articles .news-list {
-    width: 42%;
+    width: 300px;
+    _width: 250px;
     margin-top: 0;
     /*padding-left: 5px;*/
     float: left;
