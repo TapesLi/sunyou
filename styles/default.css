@@ -518,7 +518,8 @@ a.btn-next{font-weight:normal;}
 .contact-l{margin:0 10px;padding:10px 0;border-top:1px solid #d8d8d8;color:#666;font-family:"\5FAE\8F6F\96C5\9ED1";font-size:12px;}
 .contact-l li{list-style-type:none;margin:0;padding:5px 0;}
 
-.footer {
-    height: 216px;
-    background: url("../images/footer.jpg") no-repeat center;
-}
+/* footer */
+.footer{overflow:hidden;zoom:1;height:166px;background:#F9E7D3 url(../images/f_bg.jpg) no-repeat top left;padding-top:50px;}
+.f-logo{float:left;margin-right:50px;margin-left:230px;_display:inline;}
+.f-info p{margin:0;line-height:2;font-size:12px;color:#444;}
+
