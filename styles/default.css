@@ -269,17 +269,19 @@ body {
     text-decoration: none;
 }
 
-.breadcrumb .divider {
+.breadcrumb .split {
     padding: 0 2px;
 }
 
 .article {
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .article .title {
-    margin-top: 28px;
+    margin-top: 13px;
     margin-bottom: 10px;
     padding-bottom: 15px;
     padding-left: 10px;
@@ -386,22 +388,24 @@ body {
     color: #444444;
 }
 
-.recommend-products .product-list {
+.article .product-list {
     list-style: none;
     margin: 0;
+    margin-left: -33px;
     padding: 0;
 }
 
-.recommend-products .product-item {
+.article .product-item {
     float: left;
+    margin-bottom: 10px;
     margin-left: 33px;
 }
 
-.recommend-products .product-item:first-child {
+/*.article .product-item:first-child {
     margin-left: 0;
-}
+}*/
 
-.recommend-products .product-item a {
+.article .product-item a {
     display: block;
     text-decoration: none;
     color: #444444;
@@ -409,12 +413,110 @@ body {
     text-align: center;
 }
 
-.recommend-products .img-wrapper {
+.article .img-wrapper {
     /*display: block;*/
     width: 215px;
     height: 152px;
     border: 1px solid #dddddd;
 }
+
+/*.pagination {
+    margin: 20px 0;
+}
+
+.pagination .button-list,
+.pagination .direct {
+    float: left;
+}
+
+.pagination .button-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 5px;
+    float: left;
+}
+
+.pagination .button,
+.pagination .label {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.pagination .button {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #d7d7d7;
+    text-decoration: none;
+    color: #444444;
+    background-color: #ffffff;
+}
+
+.pagination .label {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pagination .disable {
+    color: #d7d7d7;
+}
+
+.pagination .direct {
+
+}*/
+
+/* ============================= 文字列表 ================================== */
+
+/* banner */
+.p-banner{height:259px;text-align:center;background:url("../images/banner_b.jpg") repeat-x;}
+.p-banner img{vertical-align:top;}
+
+.newsbox{}
+.news-item{border-bottom:1px #ddd dotted;padding:20px 0;}
+.news-item-t{margin-bottom:10px;}
+.news-item-t a{color:#c558a5;font-size:16px;font-family:"\5FAE\8F6F\96C5\9ED1";text-decoration:none;}
+.news-item-t a:hover{text-decoration:underline;color:#9e006f;}
+.news-item-t span{float:right;color:#aaaaaa;font-size:12px;}
+.news-item-b{font-size:12px;line-height:2;color:#888;}
+
+/* 分页 */
+.page-box{padding:20px 0;}
+.page-box a{border:1px solid #d5d5d5;padding:5px 10px;color:#666;text-decoration:none;font-weight:bold;margin:0 3px;}
+
+a.btn-prev,
+a.btn-next{font-weight:normal;}
+
+.page-j{float:right;}
+.input-txt{width:30px;text-align:center;}
+.input-btn{width:50px;}
+
+/* ============================= aside ================================== */
+.aside{padding-top:10px;}
+.main-wrapper{overflow:hidden;zoom:1;}
+
+.aside h3{height:33px;line-height:33px;background-color:#9e006f;color:#fff;font-size:14px;padding-left:10px;margin:0;}
+.aside .aside-box{border:1px solid #d8d8d8;}
+
+/* 笑脸新闻 */
+.news-c{margin:0;padding:8px 0 8px 20px;}
+.news-c li{list-style-type:none;margin:0;padding:8px 0;}
+.news-c li a{font-family:"\5FAE\8F6F\96C5\9ED1";text-decoration:none;color:#666666;margin-left:10px;}
+.news-c li a:hover,
+.news-c li.current a{text-decoration:underline;color:#9e006f;}
+
+.news{margin-bottom:10px;}
+
+/* 联系笑脸 */
+.contact-tel{text-align:center;padding:20px 0 10px;}
+.contact-tel img{vertical-align:top;}
+
+.contact-l{margin:0 10px;padding:10px 0;border-top:1px solid #d8d8d8;color:#666;font-family:"\5FAE\8F6F\96C5\9ED1";font-size:12px;}
+.contact-l li{list-style-type:none;margin:0;padding:5px 0;}
 
 .footer {
     height: 216px;
