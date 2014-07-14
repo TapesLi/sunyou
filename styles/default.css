@@ -181,7 +181,7 @@ body {
 
 }
 
-.main .section.section-1 {
+.main .section-1 {
     height: 1662px;
     background: url('../images/section-1-bg.jpg') no-repeat center;
 }
@@ -216,6 +216,100 @@ body {
 .main .section-1 .content {
     line-height: 1.5;
 }
+
+.main .section-2 {
+    height: 498px;
+    background: url('../images/section-2-bg.jpg') no-repeat center;
+}
+
+.main .section-2 .form-slogan .title {
+    font-size: 30px;
+    color: #9e0070;
+    position: absolute;
+    left: 20px;
+    top: 32px;
+}
+
+.main .section-2 .form-slogan .desc {
+    color: #444444;
+    position: absolute;
+    left: 140px;
+    top: 90px;
+}
+
+.main .section-2 .form-group label,
+.main .section-2 .form-group input,
+.main .section-2 .form-group textarea {
+    position: absolute;
+    color: #888888;
+}
+
+.main .section-2 .form-group input,
+.main .section-2 .form-group textarea {
+    border: none;
+    outline: none;
+}
+
+.main .section-2 .form-group .submit-button-wrapper {
+    width: 161px;
+    height: 51px;
+    background: url("../images/section-2-submit-button.jpg");
+
+    position: absolute;
+    top: 386px;
+    left: 20px;
+}
+
+.main .section-2 .form-group .submit-button {
+    position: absolute;
+    top: 14px;
+    left: 42px;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.main .section-2 .section-slogan-1 {
+    color: #ffffff;
+}
+
+.main .section-2 .section-slogan-2 {
+    color: #000000;
+}
+
+.main .section-2 .section-slogan .title {
+    position: absolute;
+    font-size: 30px;
+}
+
+.main .section-2 .section-slogan .desc {
+    position: absolute;
+}
+
+.main .section-2 .condition {
+    list-style: none;
+    padding: 0;
+
+    position: absolute;
+    top: 140px;
+    left: 460px;
+}
+
+.main .section-2 .condition li {
+    color: #ffffff;
+    margin: 15px 0;
+    padding-left: 30px;
+    background: url("../images/section-2-round.jpg") no-repeat left;
+}
+
+.main .section-3 {
+    height: 1057px;
+    background: url('../images/section-3-bg.jpg') no-repeat center;
+}
+
+
+
+
 
 .content-search-bar .search-bar {
     position: relative;
