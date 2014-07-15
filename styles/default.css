@@ -2,11 +2,8 @@
 
 @font-face {
     font-family: 'iconfont';
-    src: url('http://at.alicdn.com/t/font_1405319756_6800377.eot'); /* IE9*/
-    src: url('http://at.alicdn.com/t/font_1405319756_6800377.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('http://at.alicdn.com/t/font_1405319756_6800377.woff') format('woff'), /* chrome、firefox */
-    url('http://at.alicdn.com/t/font_1405319756_6800377.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('http://at.alicdn.com/t/font_1405319756_6800377.svg#iconfont') format('svg'); /* iOS 4.1- */
+    src: url('http://at.alicdn.com/t/font_1405378925_5140078.eot'); /* IE9*/
+    src: url('http://at.alicdn.com/t/font_1405378925_5140078.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://at.alicdn.com/t/font_1405378925_5140078.woff') format('woff'), /* chrome、firefox */ url('http://at.alicdn.com/t/font_1405378925_5140078.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('http://at.alicdn.com/t/font_1405378925_5140078.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -31,7 +28,7 @@
 
 body {
     font-size: 14px;
-    font-family: 'Microsoft YaHei',Arial,Helvetica,sans-serif;
+    font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -191,6 +188,23 @@ body {
     position: relative;
 }
 
+.main .section .section-slogan-1 {
+    color: #ffffff;
+}
+
+.main .section .section-slogan-2 {
+    color: #000000;
+}
+
+.main .section .section-slogan .title {
+    position: absolute;
+    font-size: 30px;
+}
+
+.main .section .section-slogan .desc {
+    position: absolute;
+}
+
 .main .section-1 .slogan {
     position: absolute;
 }
@@ -269,23 +283,6 @@ body {
     font-size: 18px;
 }
 
-.main .section-2 .section-slogan-1 {
-    color: #ffffff;
-}
-
-.main .section-2 .section-slogan-2 {
-    color: #000000;
-}
-
-.main .section-2 .section-slogan .title {
-    position: absolute;
-    font-size: 30px;
-}
-
-.main .section-2 .section-slogan .desc {
-    position: absolute;
-}
-
 .main .section-2 .condition {
     list-style: none;
     padding: 0;
@@ -307,9 +304,262 @@ body {
     background: url('../images/section-3-bg.jpg') no-repeat center;
 }
 
+.main .section-3 .timeline-history-list-wrapper {
+    /*width: 1000px;
+    position: absolute;
+    top: 300px;*/
+}
 
+.main .section-3 .timeline {
+    width: 1000px;
+    border-top: 3px solid #dddddd;
+    border-bottom: 3px solid #dddddd;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    top: 300px;
+}
 
+.main .section-3 .history-list {
+}
 
+.main .section-3 .year-wrapper {
+    padding: 3px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 287px;
+}
+
+.main .section-3 .year {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    /*margin: 3px;*/
+    background-color: #dddddd;
+    border-radius: 50%;
+}
+
+.main .section-3 .what-happen {
+    width: 170px;
+    padding: 20px 20px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #9e0070;
+    border-radius: 25px;
+
+    position: absolute;
+
+    left: 1000px;
+}
+
+.main .section-3 .up {
+    bottom: 780px;
+}
+
+.main .section-3 .down {
+    top: 350px;
+}
+
+.main .section-3 .auth-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main .section-3 .auth-list-wrapper {
+    width: 1000px;
+
+    position: absolute;
+    top: 545px;
+}
+
+.main .section-3 .auth-item {
+    float: left;
+    margin: 0 9px;
+    border: 1px solid #dddddd;
+}
+
+.main .section-3 .auth-img {
+    display: block;
+    width: 145px;
+    height: 120px;
+}
+
+.main .section-3 .certificate-list-outer-wrapper {
+    width: 1000px;
+    position: absolute;
+    top: 800px;
+}
+
+.main .section-3 .certificate-list-inner-wrapper {
+    width: 900px;
+    overflow: hidden;
+}
+
+.main .section-3 .certificate-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main .section-3 .certificate-item {
+    margin: 7px;
+    float: left;
+}
+
+.main .section-3 .certificate-item .label {
+    text-align: center;
+    color: #444444;
+}
+
+.main .section-3 .certificate-img-wrapper {
+    border: 1px solid #e1e1e1;
+    padding: 3px;
+    background-color: #ffffff;
+}
+
+.main .section-3 .certificate-img {
+    width: 158px;
+    height: 102px;
+}
+
+.main .section-3 .button,
+.main .section-3 .certificate-list-inner-wrapper {
+    float: left;
+}
+
+.main .section-3 .button {
+    display: block;
+    height: 108px;
+    line-height: 108px;
+
+    text-decoration: none;
+    color: #838383;
+    font-size: 50px;
+}
+
+.main .section-4 {
+    height: 902px;
+    background: url('../images/section-4-bg.jpg') no-repeat center;
+}
+
+.main .section-4 .prev-next,
+.main .section-4 .member-list-wrapper {
+    position: absolute;
+}
+
+.main .section-4 .prev-next {
+    right: 0;
+    top: 25px;
+    font-size: 20px;
+}
+
+.main .section-4 .prev,
+.main .section-4 .next {
+    display: block;
+    width: 38px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main .section-4 .prev {
+    background-color: #9e0070;
+    color: #ffffff;
+}
+
+.main .section-4 .next {
+    background-color: #ffffff;
+    color: #aaaaaa;
+}
+
+.main .section-4 .member-list-wrapper {
+    width: 1000px;
+    top: 100px;
+}
+
+.main .section-4 .member-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main .section-4 .member-item {
+    width: 235px;
+    margin: 0 7px;
+    float: left;
+}
+
+.main .section-4 .member {
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.main .section-4 .member-img {
+    width: 225px;
+    height: 150px;
+}
+
+.main .section-4 .honor {
+    text-align: center;
+}
+
+.main .section-4 .slogan {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main .section-4 .divider {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-top: 1px solid #dddddd;
+}
+
+.main .section-4 .map-label {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    color: #ffffff;
+    background-color: #9e0070;
+
+    position: absolute;
+    top: 860px;
+    left: 180px;
+}
+
+.main .section-4 .article-preview {
+    width: 460px;
+
+    position: absolute;
+    top: 565px;
+    left: 530px;
+}
+
+.main .section-4 .article-preview p {
+    height: 140px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    line-height: 2;
+
+    color: #ffffff;
+}
+
+.main .section-4 .more {
+    display: block;
+    width: 125px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 21px;
+    background-color: #9e0070;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
 
 .content-search-bar .search-bar {
     position: relative;
@@ -413,7 +663,7 @@ body {
     line-height: 2;
 }
 
-.divider {
+.article .divider {
 
     margin-left: -10px;
     margin-right: -10px;
