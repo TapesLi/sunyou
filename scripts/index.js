@@ -16,10 +16,6 @@
                 sliderItemWidth = $sliderItem.eq(0).width(),
                 sliderListWidth = sliderItemWidth * $sliderItem.length;
 
-//            console.log('sliderItemWidth:' + sliderItemWidth);
-//            console.log('sliderListWidth:' + sliderListWidth);
-
-
             $sliderList.width(sliderListWidth);
 
             $prev.on('click', function (event) {
@@ -45,10 +41,6 @@
                     return;
                 }
 
-                /* $sliderList.css({
-                 'left': current + sliderItemWidth
-                 });*/
-
                 $sliderList.animate({
                     'left': current + sliderItemWidth
                 }, 500);
@@ -70,27 +62,27 @@
 
         $supplierList.width(supplierListWidth);
 
-        function animateLeft(cb) {
+        function animateLeft() {
             $supplierList.animate({
                 'left': (supplierListWrapperWidth - supplierListWidth)
-            }, 2000, function () {
+            }, 1000 * $supplierItem.length, function () {
                 setTimeout(function () {
-                    cb();
-                }, 200);
+                    animateRight();
+                }, 1000);
             });
         }
 
-        function animateRight(cb) {
+        function animateRight() {
             $supplierList.animate({
-                'left': (supplierListWidth - supplierListWrapperWidth)
-            }, 2000, function () {
+                'left': 0
+            }, 1000 * $supplierItem.length, function () {
                 setTimeout(function () {
-                    cb();
-                }, 200);
+                    animateLeft();
+                }, 1000);
             });
         }
 
-        animateLeft(animateRight);
+        animateLeft();
 
     });
 }(jQuery));
