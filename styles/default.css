@@ -154,13 +154,17 @@ body {
     background-color: #ffffff;
 }
 
-.search-bar .search .search-button {
+.search-bar .search .search-btn {
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: -2px;
+    right: 8px;
     font-size: 26px;
     text-decoration: none;
     color: #888888;
+    border:none;
+    background:none;
+    width:30px;
+    height:30px;
 }
 
 .search-bar .search-input {
@@ -421,6 +425,7 @@ body {
 }
 
 .main .section-3 .certificate-img {
+    display: block;
     width: 158px;
     height: 102px;
 }
@@ -901,23 +906,38 @@ body {
     font-weight: bold;
     margin: 0 3px;
 }
-
-a.btn-prev,
-a.btn-next {
-    font-weight: normal;
+.page-box a:hover{
+    color:#333;
 }
-
-.page-j {
-    float: right;
+.page-box span.current{
+    border:1px solid #fff;
 }
-
-.input-txt {
-    width: 30px;
-    text-align: center;
+.page-box span{
+    border:1px solid #D1D1D1;
+    color:#D1D1D1;
+    margin: 0 3px;
+    padding: 5px 10px;
+    font-weight:normal;
 }
-
-.input-btn {
-    width: 50px;
+.page-box .btn-prev{
+    padding-left:20px;
+    background:url(../images/p.png) no-repeat;
+}
+.page-box span.btn-prev{
+    background-position:9px -52px;
+}
+.page-box a.btn-prev{
+    background-position:9px -21px;
+}
+.page-box .btn-next{
+    padding-right:20px;
+    background:url(../images/p.png) no-repeat;
+}
+.page-box span.btn-next{
+    background-position:59px -81px;
+}
+.page-box a.btn-next{
+    background-position:59px 10px;
 }
 
 /* ============================= aside ================================== */

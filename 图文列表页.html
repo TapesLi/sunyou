@@ -50,8 +50,7 @@
             <div class="search">
                 <form class="search-form" action="/">
                     <input class="search-input" type="text" placeholder="请输入您要搜索的关键词"/>
-
-                    <a class="search-button" href="javascript:;"><i class="iconfont">&#xe601;</i></a>
+                    <input class="iconfont search-btn" value="&#xe601;" type="button">
                 </form>
             </div>
         </div>
@@ -144,19 +143,12 @@
                     <!--</div>-->
 
                     <div class="page-box">
-                        <div class="page-j">
-                            向第
-                            <input type="text" class="input-txt">
-                            页
-                            <input type="button" value="跳转" class="input-btn">
-                        </div>
-                        <a href="#" class="btn-prev">上一页</a>
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <span>...</span>
-                        <a href="#">20</a>
-                        <a href="#" class="btn-next">下一页</a>
+                        <span title="首页" class="disabled">首页</span>
+                        <span title="上一页" class="btn-prev">上一页</span>
+                        <span class="current">1</span>
+                        <a href="news_2.html">2</a>
+                        <a title="下一页" href="news_2.html" class="btn-next">下一页</a>
+                        <a title="末页" href="news_2.html">末页</a>
                     </div>
                 </div>
 
