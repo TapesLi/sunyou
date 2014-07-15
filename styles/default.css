@@ -561,6 +561,22 @@ body {
     text-decoration: none;
 }
 
+
+.main .section-5 {
+    height: 991px;
+    background: url('../images/section-5-bg.jpg') no-repeat center;
+}
+
+.main .section-6 {
+    height: 636px;
+    background: url('../images/section-6-bg.jpg') no-repeat center;
+}
+
+.main .section-7 {
+    height: 447px;
+    background: url('../images/section-7-bg.jpg') no-repeat center;
+}
+
 .content-search-bar .search-bar {
     position: relative;
 }
