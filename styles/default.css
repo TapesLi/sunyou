@@ -203,10 +203,25 @@ p {
 
 }
 
-.main .section-1 {
-    height: 1662px;
-    background: url('../images/section-1-bg.jpg') no-repeat center;
+.main .section .triangle {
+    border-style: solid;
+    height: 0;
+    width: 0;
+    position: absolute;
 }
+
+.main .section .triangle-up {
+    border-width: 0 10px 20px 10px;
+    border-color:  transparent transparent #9e0070 transparent;
+
+}
+
+.main .section .triangle-down {
+    border-width: 20px 10px 0 10px;
+    border-color: #9e0070 transparent transparent transparent;
+
+}
+
 
 .main .section .section-cell {
     height: 100%;
@@ -272,6 +287,11 @@ p {
 
 .main .section .slider-img {
     display: block;
+}
+
+.main .section-1 {
+    height: 1662px;
+    background: url('../images/section-1-bg.jpg') no-repeat center;
 }
 
 .main .section-1 .slogan {
@@ -619,6 +639,12 @@ p {
     background: url('../images/section-5-bg.jpg') no-repeat center;
 }
 
+.main .section-5 .workshop {
+    position: absolute;
+
+    top: 108px;
+}
+
 .main .section-5 .workshop-list-wrapper {
     width: 100%;
     position: absolute;
@@ -636,6 +662,10 @@ p {
     margin: 1px;
 }
 
+.main .section-5 .workshop-item .triangle {
+    margin-left: 110px;
+}
+
 .main .section-5 .workshop-item-inner {
     width: 247px;
     height: 197px;
@@ -651,6 +681,8 @@ p {
     width: 100%;
     height: 100%;
     background-color: #9e0070;
+
+    position: relative;
 }
 
 .main .section-5 .tile-detail-wrapper {
