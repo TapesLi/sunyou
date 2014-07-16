@@ -1577,7 +1577,7 @@ p {
 
 .sidebar_hd {
     height: 40px;
-    background: url(../sidebar/s_t.jpg) no-repeat;
+    background: url("../images/sidebar/s_t.jpg") no-repeat;
 }
 
 .sidebar_ft {
@@ -1587,7 +1587,7 @@ p {
     display: block;
     width: 187px;
     height: 45px;
-    background: url(../sidebar/s_b.jpg) no-repeat;
+    background: url("../images/sidebar/s_b.jpg") no-repeat;
 }
 
 .sidebar_tel {
