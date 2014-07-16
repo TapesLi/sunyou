@@ -350,8 +350,8 @@ p {
 
 .main .section-2 .form-group input,
 .main .section-2 .form-group textarea {
-    border: none;
-    outline: none;
+    border: 0 none;
+    outline: 0 none;
 }
 
 .main .section-2 .form-group .submit-button-wrapper {
@@ -365,9 +365,11 @@ p {
 }
 
 .main .section-2 .form-group .submit-button {
-    position: absolute;
+    /*position: absolute;
     top: 14px;
-    left: 42px;
+    left: 42px;*/
+    width: 161px;
+    height: 51px;
     color: #ffffff;
     background-color: transparent;
     font-size: 18px;
